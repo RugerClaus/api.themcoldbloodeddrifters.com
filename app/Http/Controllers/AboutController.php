@@ -26,7 +26,7 @@ class AboutController extends Controller
             'name' => $band->name,
             'band_list_left_to_right' => $band->band_list_left_to_right,
             'bio' => $band->bio,
-            'image' => $band->image_url,
+            'image' => $band->image,
             'imgalt' => $band->image_alt
             ]
         ]);
